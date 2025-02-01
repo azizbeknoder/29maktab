@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full h-20 flex justify-between px-10 md:px-20 pt-3 items-center relative z-50">
+    <div className="w-full h-20 flex justify-between px-10 md:px-20 pt-3 items-center  z-50 fixed bg-asosiy ">
       <div>
         <a href="/">
           <h1 className="text-white text-2xl md:text-3xl xl:text-5xl font-bold uppercase">

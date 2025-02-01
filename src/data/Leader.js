@@ -1,7 +1,7 @@
 export const leaderData = [
   {
     id: 1,
-    fullname: "Najmiddin Solijonov",
+    fullname: "Najmiddin Solijonovasdfasdfasfdasddfdsfas",
     position: "Direktor",
     images: "/leader/Photo.jpg",
   },
