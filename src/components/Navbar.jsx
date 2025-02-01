@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full h-20 flex justify-between px-10 md:px-20 pt-3 items-center relative">
+    <div className="w-full h-20 flex justify-between px-10 md:px-20 pt-3 items-center relative z-50">
       <div>
         <a href="/">
           <h1 className="text-white text-2xl md:text-3xl xl:text-5xl font-bold uppercase">
@@ -28,7 +28,9 @@ export default function Navbar() {
           className={`absolute top-20 left-0 w-full  flex flex-col gap-3 p-5 text-white 
             transition-all duration-500 transform origin-top
             ${
-              isOpen ? "scale-y-100 opacity-100 bg-asosiy" : "scale-y-0 opacity-0"
+              isOpen
+                ? "scale-y-100 opacity-100 bg-asosiy"
+                : "scale-y-0 opacity-0"
             } md:hidden`}
         >
           {navbarData.map((e) => (

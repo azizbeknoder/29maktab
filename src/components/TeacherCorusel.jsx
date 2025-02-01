@@ -26,9 +26,9 @@ export default function SwiperComponent() {
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         className="rounded-xl shadow-lg"
       >
-        {teacherData.map((e) => {
+        {teacherData.map((e,idx) => {
           return (
-            <SwiperSlide key={e.id}>
+            <SwiperSlide key={idx}>
               <div className="w-full h-full ">
                 <div className="text-center flex flex-col items-center justify-center pt-10 ">
                   <img src={e.img} alt="" className="w-40" />
