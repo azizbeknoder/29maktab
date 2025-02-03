@@ -2,7 +2,7 @@ import { leaderData } from '@/data/Leader'
 export default function Leader() {
   return (
     <div className="w-full h-full my-14 ">
-      <div className="px-7">
+      <div className="px-4 md:px-7">
         <ul className="grid grid-cols-1 md:grid-cols-3 gap-x-8">
           {leaderData.map((e) => {
             return (

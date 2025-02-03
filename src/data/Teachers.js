@@ -1,11 +1,68 @@
 export const teacherData = [
-  { name: "Teacher 1", img: "/leader/Photo.jpg" },
-  { name: "Teacher 2", img: "/leader/Photo.jpg" },
-  { name: "Teacher 3", img: "/leader/Photo.jpg" },
-  { name: "Teacher 4", img: "/leader/Photo.jpg" },
-  { name: "Teacher 5", img: "/leader/Photo.jpg" },
-  { name: "Teacher 6", img: "/leader/Photo.jpg" },
-  { name: "Teacher 7", img: "/leader/Photo.jpg" },
-  { name: "Teacher 8", img: "/leader/Photo.jpg" },
-  { name: "Teacher 9", img: "/leader/Photo.jpg" },
+  {
+    id: 1,
+    fullnae: "Azizbek To'ychiyev",
+    scince: "Ona tili",
+    certificate: [{ type: "Xalqaro", theway: "Ielts", degree: "9" }],
+    univercity: [
+      { name: "O'zbekiston milliy universiteti", degree: "bakalavr" },
+    ],
+    photo: "/leader/Photo.jpg",
+    goal: "o'z sohamda eng zo'r ustoz bo'lish.",
+  },
+  {
+    id: 2,
+    fullnae: "Azizbek To'ychiyev",
+    scince: "Ona tili",
+    certificate: [{ type: "Xalqaro", theway: "Ielts", degree: "9" }],
+    univercity: [
+      { name: "O'zbekiston milliy universiteti", degree: "bakalavr" },
+    ],
+    photo: "/leader/Photo.jpg",
+    goal: "o'z sohamda eng zo'r ustoz bo'lish.",
+  },
+  {
+    id: 3,
+    fullnae: "Azizbek To'ychiyev",
+    scince: "Ona tili",
+    certificate: [{ type: "Xalqaro", theway: "Ielts", degree: "9" }],
+    univercity: [
+      { name: "O'zbekiston milliy universiteti", degree: "bakalavr" },
+    ],
+    photo: "/leader/Photo.jpg",
+    goal: "o'z sohamda eng zo'r ustoz bo'lish.",
+  },
+  {
+    id: 4,
+    fullnae: "Azizbek To'ychiyev",
+    scince: "Ona tili",
+    certificate: [{ type: "Xalqaro", theway: "Ielts", degree: "9" }],
+    univercity: [
+      { name: "O'zbekiston milliy universiteti", degree: "bakalavr" },
+    ],
+    photo: "/leader/Photo.jpg",
+    goal: "o'z sohamda eng zo'r ustoz bo'lish.",
+  },
+  {
+    id: 5,
+    fullnae: "Azizbek To'ychiyev",
+    scince: "Ona tili",
+    certificate: [{ type: "Xalqaro", theway: "Ielts", degree: "9" }],
+    univercity: [
+      { name: "O'zbekiston milliy universiteti", degree: "bakalavr" },
+    ],
+    photo: "/leader/Photo.jpg",
+    goal: "o'z sohamda eng zo'r ustoz bo'lish.",
+  },
+  {
+    id: 6,
+    fullnae: "Azizbek To'ychiyev",
+    scince: "Ona tili",
+    certificate: [{ type: "Xalqaro", theway: "Ielts", degree: "9" }],
+    univercity: [
+      { name: "O'zbekiston milliy universiteti", degree: "bakalavr" },
+    ],
+    photo: "/leader/Photo.jpg",
+    goal: "o'z sohamda eng zo'r ustoz bo'lish.",
+  },
 ];

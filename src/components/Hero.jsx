@@ -2,9 +2,9 @@ import React from "react";
 
 export default function VideoBackground() {
   return (
-    <div className="relative w-full h-screen overflow-hidden px-7">
+    <div className="relative w-full h-screen overflow-hidden px-4 md:px-7">
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover px-7"
+        className="absolute top-0 left-0 w-full h-full object-cover px-4 md:px-7 "
         autoPlay
         loop
         muted
@@ -24,7 +24,6 @@ export default function VideoBackground() {
           <strong className="text-golder">29-</strong>maktab
         </p>
         <a href="/">
-          
           <button className="uppercase bg-golder text-white mt-6 w-[140px] h-[56px] font-bold text-md hover:opacity-60">
             batafsil
           </button>

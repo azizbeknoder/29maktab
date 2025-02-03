@@ -7,7 +7,7 @@ export default function Pride() {
       className="pt-14 pb-14 bg-cover bg-center "
       style={{ backgroundImage: "url('/pride/pride-bg.jpg')" }}
     >
-      <div className="px-7 xl:flex">
+      <div className="px-4 md:px-7 xl:flex">
         <div className="xl:mr-20">
           <img src="/school-img.jpg" alt="School" />
         </div>
