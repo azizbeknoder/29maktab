@@ -19,11 +19,17 @@ export default function page() {
             {teacherData.map((e) => {
               return (
                 <li className="">
-                  <div className=" flex flex-col justify-center items-center">
-                    <img src={e.photo} alt="" className="rounded-2xl" />
-                    <p>{e.fullnae}</p>
-                    <p>{e.scince}</p>
-                  </div>
+                  <a href={`/ustozlar/${e.id}`}>
+                    <div className=" flex flex-col justify-center items-center">
+                      <img
+                        src={e.photo}
+                        alt=""
+                        className="rounded-2xl min-x-[394px] min-h-[286px] "
+                      />
+                      <p>{e.fullnae}</p>
+                      <p>{e.scince}</p>
+                    </div>
+                  </a>
                 </li>
               );
             })}
