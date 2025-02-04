@@ -24,7 +24,7 @@ export default function page() {
                       <img
                         src={e.photo}
                         alt=""
-                        className="rounded-2xl min-x-[394px] min-h-[286px] "
+                        className="rounded-2xl  "
                       />
                       <p>{e.fullnae}</p>
                       <p>{e.scince}</p>
