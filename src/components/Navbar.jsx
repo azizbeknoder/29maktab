@@ -10,7 +10,7 @@ export default function Navbar() {
       <div>
         <a href="/">
           <h1 className="text-white text-2xl md:text-3xl xl:text-5xl font-bold uppercase">
-            <em className="text-golder">29-</em>maktab
+            <strong className="text-golder">29-</strong>maktab
           </h1>
         </a>
       </div>
