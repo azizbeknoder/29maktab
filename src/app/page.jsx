@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Leader from "@/components/Leader";
 import Pride from "@/components/Pride";
@@ -11,6 +12,7 @@ export default function page() {
       <Pride />
       <Leader />
       <TeacherCorusel />
+      <Footer/>
     </div>
   );
 }

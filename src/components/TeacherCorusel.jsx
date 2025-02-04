@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function SwiperComponent() {
   return (
-    <div className="w-full  mb-14">
+    <div className="w-full  mb-14 px-10 mt-14">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={10} // Slaydlar orasidagi masofa
@@ -28,12 +28,12 @@ export default function SwiperComponent() {
         {teacherData.map((e, idx) => {
           return (
             <SwiperSlide key={idx}>
-              <a href={`/${e.id}`}>
-                <div className="w-full h-full ">
-                  <div className="text-center flex flex-col items-center justify-center pt-10 ">
+              <a href={`/ustozlar/${e.id}`}>
+                <div className="w-full  h-[400px]">
+                  <div className="text-center flex flex-col items-center justify-center  ">
                     <img src={e.photo} alt="" className="w-[300px]" />
-                    <p className="text-3xl text-golder">{e.fullnae}</p>
-                    <p className="text-xl">{e.scince} ustozi</p>
+                    <p className="text-3xl text-golder mt-4">{e.fullnae}</p>
+                    <p className="text-xl text-white mt-6">{e.scince} ustozi</p>
                   </div>
                 </div>
               </a>

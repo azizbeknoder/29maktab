@@ -21,8 +21,8 @@ export default function Page() {
                 index === 1 ? "xl:flex-row-reverse" : ""
               }`}
             >
-              <div className="rounded-xl">
-                <img src={leader.images} alt="Photos" className="rounded-2xl" />
+              <div className="rounded-xl shadow-xl">
+                <img src={leader.images} alt="Photos" className="rounded-2xl " />
               </div>
 
               <div className="flex flex-col justify-center items-center ">
