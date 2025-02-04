@@ -20,7 +20,7 @@ export default function Footer() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="max-w-[300px] max-h-[300px] xl:max-w-[500px] xl:max-h-[500px] block"
+          className="max-w-[300px] max-h-[300px] xl:max-w-[500px] xl:max-h-[500px] block rounded-xl"
         ></iframe>
       </div>
     </div>

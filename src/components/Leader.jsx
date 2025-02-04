@@ -7,9 +7,17 @@ export default function Leader() {
           {leaderData.map((e) => {
             return (
               <li key={e.id} className="mb-10 md:mb-0 ">
-                <img src="/leader/Photo.jpg" alt="Photo" className="" />
-                <h2 className="font-bold text-3xl  ">{e.fullname}</h2>
-                <p className="text-golder text-xl">{e.position}</p>
+                <a href={`/rahbarlar/${e.id}`}>
+                  <div>
+                    <img
+                      src="/leader/Photo.jpg"
+                      alt="Photo"
+                      className="rounded-xl"
+                    />
+                    <h2 className="font-bold text-3xl  ">{e.fullname}</h2>
+                    <p className="text-golder text-xl">{e.position}</p>
+                  </div>
+                </a>
               </li>
             );
           })}
